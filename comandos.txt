@@ -5,3 +5,4 @@ grep -r -l 'quijote' *
 sed -i 's/panza/barriga/g' el_quijote.txt
 sed -i 's/panza/barriga/gI' el_quijote.txt
 head -c 4 el_quijote.txt
+head -c 4000 el_quijote.txt
