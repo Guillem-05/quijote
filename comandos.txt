@@ -2,3 +2,4 @@ grep -o 'quijote' el_quijote.txt | wc -l
 grep -v 'quijote' el_quijote.txt | wc -l
 grep -r 'quijote' * | wc -l
 grep -r -l 'quijote' *
+sed -i 's/panza/barriga/g' el_quijote.txt
